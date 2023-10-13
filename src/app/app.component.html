@@ -1,0 +1,76 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<nav>
+  <span><img src="" alt=""></span>
+  <ul>
+    <li>
+      <a href="">Inscríbete</a>
+    </li>
+  </ul>
+</nav>
+
+<div class="landing" role="banner">
+  
+  <section class="landing-cover">
+    <ul class="landing-cover__marquee">
+      <li *ngFor="let post of posts">
+        <a target="_blank" href={{post.url}}>
+          <strong>{{post.type}} : </strong>
+          {{post.title}}
+        </a>
+      </li>
+    </ul>
+    <div class="landing-cover__art">
+      <!-- <svg *ngFor="let color of colors"
+        width="100" height="80" viewBox="0 0 100 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#FFFFFF" fill-rule="evenodd" clip-rule="evenodd" d="M0 50C0 22.3858 22.3858 0 50 0C77.6142 0 100 22.3858 100 50V80H0V50Z"/>
+      </svg> -->
+      <svg width="100" height="80" viewBox="0 0 100 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#FF4C4C" fill-rule="evenodd" clip-rule="evenodd" d="M0 50C0 22.3858 22.3858 0 50 0C77.6142 0 100 22.3858 100 50V80H0V50Z"/>
+      </svg>
+      <svg width="100" height="80" viewBox="0 0 100 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#FFDB20" fill-rule="evenodd" clip-rule="evenodd" d="M0 50C0 22.3858 22.3858 0 50 0C77.6142 0 100 22.3858 100 50V80H0V50Z"/>
+      </svg>
+      <svg width="100" height="80" viewBox="0 0 100 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#00D254" fill-rule="evenodd" clip-rule="evenodd" d="M0 50C0 22.3858 22.3858 0 50 0C77.6142 0 100 22.3858 100 50V80H0V50Z"/>
+      </svg>
+      <svg width="100" height="80" viewBox="0 0 100 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#0697FF" fill-rule="evenodd" clip-rule="evenodd" d="M0 50C0 22.3858 22.3858 0 50 0C77.6142 0 100 22.3858 100 50V80H0V50Z"/>
+      </svg>
+    </div>
+
+    <header class="landing-cover__header">
+      <h1 class="landing-cover__header_title"
+        >#QroDevelopers
+      </h1>
+  
+      <figcaption class="landing-cover__header_caption"
+        >Participa en talleres sobre Software Libre, Librerías Google y Desarrollo Profesional en Querétaro. 
+        <!-- <strong style="font-size: 18pt;"> -->
+          ¡Conoce nuestras próximas sesiones!
+        <!-- </strong> -->
+      </figcaption>
+    </header>
+    <a href="https://gdg.community.dev/accounts/login/?next=/gdg-queretaro/" 
+      target="_blank"
+      class="landing-cover__header_action_btn"
+    >Inscríbete</a>
+  </section>
+</div>
+
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<router-outlet></router-outlet>

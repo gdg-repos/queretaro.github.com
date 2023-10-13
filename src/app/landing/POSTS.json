@@ -1,0 +1,39 @@
+{
+  "articles": [
+    {
+      "type": "Nuevo",
+      "title": "Bard se actualiza y se integra con más servicios Google",
+      "url": "https://blog.google/intl/es-419/actualizaciones-de-producto/bard-ahora-puede-interactuar-con-tus-aplicaciones-y-servicios-favoritos-de-google/"
+    },
+    {
+      "type": "Lee",
+      "title": "Los modulos AI que se agregan a Google Cloud este 2023",
+      "url": "https://blog.google/intl/es-419/actualizaciones-de-producto/en-la-nube/bienvenido-a-google-cloud-next-23/"
+    },
+    {
+      "type": "Nuevo",
+      "title": "Todo lo que llega con Android 14",
+      "url": "https://blog.google/intl/es-419/actualizaciones-de-producto/android-14-mas-funciones-de-personalizacion-control-y-accesibilidad/"
+    },
+    {
+      "type": "Evento",
+      "title": "Club de Diseño: Figma meetup",
+      "url": "#"
+    },
+    {
+      "type": "Tutorial",
+      "title": "Primeros pasos con Material v3.0 en la Web",
+      "url": "#"
+    },
+    {
+      "type": "Lee",
+      "title": "El impacto de GDG en el mundo",
+      "url": "#"
+    },
+    {
+      "type": "Lee",
+      "title": "Google abrirá su región Latam instalandose en Querétaro",
+      "url": "#"
+    }
+  ]
+}
