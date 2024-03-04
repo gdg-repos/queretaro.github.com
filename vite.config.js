@@ -4,7 +4,7 @@ import postcssLit from "rollup-plugin-postcss-lit"
 export default defineConfig({
   root: 'src',
   build: {
-    outDir: '../pages'
+    outDir: '../docs'
   },
   plugins: [
     postcssLit()
